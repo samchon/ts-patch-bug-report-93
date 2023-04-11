@@ -7,12 +7,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-        with:
-          node-version: 16.x
+
       - run: npm install
+
       - name: Compile through tspc
         run: npm run build
+
       - name: Run compile JS file
         run: node bin 
+        
       - name: Run TS file
         run: npm run start
