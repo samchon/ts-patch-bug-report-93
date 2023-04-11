@@ -1,0 +1,21 @@
+{
+  "name": "ts-patch-bug-report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tspc",
+    "start": "ts-node -C ts-patch src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typia": "^3.7.5-dev.20230413"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "ts-patch": "^3.0.0-beta2",
+    "typescript": "^5.0.4"
+  }
+}
